@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBody {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+/***************************************************************************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100%;
+}
+
+.container .description {
+    height: 35%;
+    width: 100%;
+    background-color: rgb(243 244 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+    padding-right: 170px;
+    font-size: 13px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.description .writing {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/***************************************************************************/
+
+.container .form_container {
+    height: 30%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex: 5;
+}
+
+.form_container .heading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form_container .forms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 75%;
+}
+
+.forms .formID {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-right: 50px;
+}
+
+.forms .formID input {
+    height: 25px;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.forms .formID label {
+    font-size: 13px;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: #5b6673;
+}
+
+/***************************************************************************/
+
+.container .createAccount {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(243 244 246);
+    padding: 50px;
+    box-sizing: border-box;
+    flex-shrink: 3;
+}
+
+.createAccount button {
+    width: 225px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(74, 114, 74);
+}
+
+.container .createAccount .Login {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.container .createAccount .Login .log {
+    color: rgb(74, 114, 74);
+}
+
+
+
+
+
